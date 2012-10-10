@@ -2,7 +2,12 @@ body {
     font: 16px/22px Georgia, serif;
     background: url(img/vzor.png);
     padding-top: 80px;
-    padding-left: 200px;
+    min-width: 900px;
+}
+
+#content {
+    width: 800px;
+    margin: auto;
 }
 
 h1 {
@@ -14,10 +19,10 @@ h1 {
     float: left;
 }
 
-#content {
+#text {
     width: 400px;
     margin-left: 385px;
-    margin-top: 112px;
+    padding-top: 100px;
 }
 
 ul#links {
